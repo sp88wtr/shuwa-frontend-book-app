@@ -1,5 +1,5 @@
 name: Front-End CI Actions
-on: [push, pull-request]
+on: [push, pullrequest]
 jobs:
   lint-and-test:
     runs-on: ubuntu-latest
